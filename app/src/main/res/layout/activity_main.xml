@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#008080"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NHẬP THÔNG TIN"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên:"
+        android:textSize="25sp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#FFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã sinh viên:"
+        android:textSize="25sp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#FFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp:"
+        android:textSize="25sp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#FFFF"/>
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/buttonNhap"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:text="NHẬP"
+        android:textSize="25sp"
+        android:textColor="#FFFF"
+        android:layout_gravity="right"/>
+
+
+
+
+
+
+</LinearLayout>
